@@ -5,3 +5,4 @@ The files in this directory are scripts that serve as an introduction to C. Thes
 - __2-assembler__: Generates the assembly code of a C code and save it in an output file. The C file name will be saved in the variable __$CFILE__, the output file should be named the same as the C file, but with the extension __.s__ instead of __.c__.
 - __3-name__: Compiles a C file and creates an executable named __cisfun__. The C file name will be saved in the variable __$CFILE__.
 - __4-puts.c__: Prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Using the function __puts__, without using __printf__, the program should end with the value __0__.
+- __5-printf.c__: Print exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. Use the function __printf__, without using the function __puts__, the program should return __0__, the program should compile without warning when using the __-Wall__ gcc option.
