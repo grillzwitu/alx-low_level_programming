@@ -3,5 +3,5 @@ This directory contains __C__ files that can be used to test the correctness of 
 - __holberton.h__: Header file containing all function prototypes.
 - __0-main.c__: Checks if the function __positive_or_negative()__ is correct.
 - __1-main.c__:  Commented out the part of the code that causes the output to go into an infinite loop.
-- __2-largest_number.c__: Correctly prints out the largest of three numbers, no matter the case.
+- __2-largest_number.c__: Fix the code in __2-largest_number.c__ so that it correctly prints out the largest of three numbers, no matter the case
 - __3-print_remaining_days.c__: Fix the __print_remaining_days()__ function so that the output works correctly for all dates and all leap years.
