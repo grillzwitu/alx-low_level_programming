@@ -16,3 +16,4 @@ This directory contains __C__ files that showcase the use of functions and neste
 - __11-print_to_98.c__: Prints all natural numbers from __n__ to __98__, followed by a new line. __Prototype__: __void print_to_98(int n);__, numbers must be separated by a comma, followed by a space, using the standard library, numbers should be printed in order;
  - The first printed number should be the number passed to your function.
  - The last printed number should be 98. 
+- __100-times_table.c__: Prints the __n__ times table, starting with 0. __Prototype__:__void print_times_table(int n)__. If n is greater than 15 or less than 0 the function should not print anything.
