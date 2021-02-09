@@ -1,10 +1,11 @@
 #include "holberton.h"
 
 /**
- * _putchar: calls the fuction _putchar
- * print_alphabet: prints the alphabets in lowercase
+ * print_alphabet - entry point
  *
- * Return: Void.
+ * Description - prints the alphabets in lowercase
+ *
+ * Return void
  */
 
 void print_alphabet(void)

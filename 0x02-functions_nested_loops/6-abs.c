@@ -1,8 +1,11 @@
 #include "holberton.h"
 
 /**
+ * _abs - entry point
  *
- * _abs: Prints the absolute value of the argument.
+ * @num: int argument
+ *
+ * Description: _abs Prints the absolute value of the argument.
  *
  * Return: 0 (Success).
  */

@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- * 
+ *
  * _putchar: calls the fuction _putchar
- * 
+ *
  * Return: Always 0 (Sucess)
  */
 

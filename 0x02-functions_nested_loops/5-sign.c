@@ -1,11 +1,13 @@
 #include "holberton.h"
 
 /**
+ * print_sign - entry point
  *
- * _putchar: calls the fuction _putchar.
- * print_sign: Prints the sign of the argument.
+ * @n: int argument
  *
- * Return: 1 (if "int n" is greater than 1), 0 (If "int n" is 0), -1 (if "int n" is less than 0).
+ * Description: print_sign Prints the sign of the argument.
+ *
+ * Return: 1 (n > 1), 0 (n = 0), -1 (n < 0).
  */
 
 

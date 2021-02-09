@@ -1,8 +1,12 @@
 #include "holberton.h"
 
 /**
+ * add - entry point
  *
- * add: Prints the sum of two integers.
+ * @a: int argument
+ * @b: int argument
+ *
+ * Description: add Prints the sum of two integers.
  *
  * Return: 0 (Success).
  */

@@ -2,8 +2,11 @@
 #include <stdio.h>
 
 /**
+ * print_to_98 - entry point
  *
- * print_to_98: Prints natural numbers from n to 98.
+ * @n: int argument
+ *
+ * Description: print_to_98 Prints natural numbers from n to 98.
  *
  * Return: 0 (Success).
  */

@@ -1,9 +1,11 @@
 #include "holberton.h"
 
 /**
+ * _isalpha - entry point
  *
- * _putchar: calls the fuction _putchar.
- * _isalpha: Checks if "int c" is an alphabet.
+ * @c: int argument
+ *
+ * Description: _isalpha Checks if "int c" is an alphabet.
  *
  * Return: 1 (if "int c" is an alphabet), 0 (If "int c" is an alphabet).
  */

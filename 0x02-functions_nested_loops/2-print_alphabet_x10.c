@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
+ * print_alphabet_x10 - entry point
  *
- * _putchar: calls the fuction _putchar.
- * print_alphabet_x10: Prints 10 times the alphabets in lowercase.
+ * Description: print_alphabet_x10: Prints 10 times the alphabets in lowercase.
  *
  * Return: Void
  */
