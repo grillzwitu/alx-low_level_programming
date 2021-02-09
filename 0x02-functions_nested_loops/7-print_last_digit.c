@@ -1,19 +1,16 @@
 #include "holberton.h"
 
 /**
+ * _abs - entry point
+ *
  * print_last_digit - entry point
  *
  * @num: int argument
  *
- * Description: print_last_digit Prints the last digit of the argument.
- *
- * Return: 0 (Success).
- *
- * _abs - entry point
+ * Description: print_last_digit Prints the last digit of the argument. 
  *
  * @num: int argument
  *
- * Description: _abs Prints the absolute value of the argument.
  *
  * Return: 0 (Success).
  */
