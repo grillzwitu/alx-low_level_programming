@@ -14,7 +14,7 @@ void more_numbers(void)
 int count;
 int numbers;
 
-for (count = 0; count < 14; count++)
+for (count = 0; count < 10; count++)
 {
 
 for (numbers = 0; numbers <= 14; numbers++)
@@ -23,6 +23,7 @@ if (numbers > 9)
 {
 _putchar('1');
 }
+
 _putchar('0' + numbers % 10);
 }
 _putchar('\n');
