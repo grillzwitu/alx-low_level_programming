@@ -1,0 +1,14 @@
+## 0x04-more_functions_nested_loops
+This directory contains __C__ files that further demonstrate and showcase my understanding of __C__ programming language. The files in this directory include;
+- __holberton.h__: The header file containing all function prototypes.
+- __0-isupper.c__: Checks for uppercase character. __Prototype__: __int _isupper(int c);__. Returns 1 if c is uppercase, returns 0 otherwise.
+- __1-isdigit.c__: Checks for a digit (0 through 9).__Prototype__:__int _isdigit(int c);__. Returns 1 if c is a digit, returns 0 otherwise.
+- __2-mul.c__: Multiplies two integers. __Prototype__: __int mul(int a, int b);__.
+- __3-print_numbers.c__: Prints the numbers, from 0 to 9, followed by a new line. __Prototype__: __void print_numbers(void);__, using _putchar at most twice in the code.
+- __4-print_most_numbers.c__: Prints the numbers, from 0 to 9, followed by a new line. __Prototype__: __void print_most_numbers(void);__. Does not print 2 and 4, using _putchar twice in the code.
+- __5-more_numbers.c__: Prints 10 times the numbers, from 0 to 14, followed by a new line. __Prototype__: __void more_numbers(void);__, using _putchar at most three times in the code.
+- __6-print_line.c__: Draws a straight line in the terminal. __Prototype__: __void print_line(int n);__, only using \_putchar function to print, __n__ is the number of times the character __'_'__ should be printed, the line should end with a __\n__. If n is 0 or less, the function should only print \n.
+- __7-print_diagonal.c__: Draws a diagonal line on the terminal. __Prototype__: __void print_diagonal(int n);__, only using _putchar function to print, n is the number of times the character \ should be printed. The diagonal should end with a \n. If n is 0 or less, the function should only print a \n.
+- __8-print_square.c__: Prints a square, followed by a new line. __Prototype__: __void print_square(int size);__, only using _putchar function to print, where size is the size of the square. If size is 0 or less, the function should print only a new line. Use the character # to print the square.
+- __9-fizz_buzz.c__: Prints the numbers from 1 to 100, followed by a new line. But for multiples of three print __Fizz__ instead of the number and for the multiples of five print __Buzz__. For numbers which are multiples of both three and five print __FizzBuzz__. Each number or word should be separated by a space. Using the standard library.
+- __10-print_triangle.c__: Prints a triangle, followed by a new line. __Prototype__: __void print_triangle(int size);__, only use _putchar function to print, __size__ is the size of the triangle, If __size__ is 0 or less, the function should print only a new line. Use the character # to print the triangle.

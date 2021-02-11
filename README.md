@@ -4,3 +4,4 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x01-variables_if_else_while__.
 - __0x02-functions_nested_loops__.
 - __0x03-debugging__.
+- __0x04-more_functions_nested_loops__.
