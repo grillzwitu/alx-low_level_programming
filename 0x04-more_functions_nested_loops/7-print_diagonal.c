@@ -4,7 +4,7 @@
  * print_diagonal - entry point
  *
  * @n: int argument for number of lines
- * 
+ *
  * Description: Prints a diagonal line in the terminal
  *
  * Return: Void
@@ -27,9 +27,9 @@ line = '\\';
 space = ' ';
 if (n > 0)
 {
-for ( i = 1; i <= n; i++)
+for (i = 1; i <= n; i++)
 {
-for (j = 0; j < i; j++)
+for (j = 1; j < i; j++)
 {
 _putchar(space);
 }
@@ -41,5 +41,4 @@ else
 {
 _putchar(10);
 }
-
 }

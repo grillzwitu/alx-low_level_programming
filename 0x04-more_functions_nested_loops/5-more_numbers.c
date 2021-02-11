@@ -26,7 +26,7 @@ _putchar('1');
 
 _putchar('0' + numbers % 10);
 }
-_putchar('\n');
+_putchar(10);
 }
 
 }
