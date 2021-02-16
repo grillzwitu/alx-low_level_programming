@@ -11,11 +11,12 @@
  *
  */
 
+
 void print_array(int *a, int n)
 {
 int i;
 
-if (a)
+if (n > 0)
 {
 while (i < n)
 {
@@ -28,5 +29,10 @@ printf(" ");
 i++;
 }
 }
+else
+{
+n = 0;
+}
+
 printf("\n");
 }
