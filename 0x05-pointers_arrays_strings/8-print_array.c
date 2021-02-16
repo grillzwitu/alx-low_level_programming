@@ -27,9 +27,6 @@ printf(" ");
 i++;
 }
 }
-else
-{
-n = 0;
-}
+
 _putchar(10);
 }
