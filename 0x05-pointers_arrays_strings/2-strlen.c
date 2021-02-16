@@ -7,6 +7,7 @@
  *
  * Description: Returns lenght of a string
  *
+ * Return: Lenght of s
  */
 
 int _strlen(char *s)
