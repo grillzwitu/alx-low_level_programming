@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * void print_array - entry point
+ * print_array - entry point
  *
  * @a: int argument
  * @n: int argument
