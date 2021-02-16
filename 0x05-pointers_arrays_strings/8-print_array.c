@@ -14,7 +14,7 @@
 void print_array(int *a, int n)
 {
 int i;
-if (n > 0)
+
 {
 while (i < n)
 {
@@ -26,7 +26,6 @@ printf(" ");
 }
 i++;
 }
-}
 
-_putchar(10);
+printf("\n");
 }
