@@ -21,8 +21,8 @@ while (i < n)
 printf("%d", a[i]);
 if (i < (n - 1))
 {
-_putchar(',');
-_putchar(' ');
+printf(",");
+printf(" ");
 }
 i++;
 }
