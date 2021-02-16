@@ -3,10 +3,11 @@
 /**
  * _strlen - entry point
  *
- * @*s: char argument
+ * @s: char argument
  *
  * Description: Returns lenght of a string
  *
+ * Return: Lenght of s
  */
 
 int _strlen(char *s)
@@ -39,8 +40,8 @@ i = 0;
 while (i < (strsize / 2))
 {
 syn = *(s + i);
-*(s + i) = *(s + strsize -1 - i);
-*(s + strsize -1 - i) = syn;
+*(s + i) = *(s + strsize - 1 - i);
+*(s + strsize - 1 - i) = syn;
 i++;
 }
 
