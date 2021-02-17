@@ -34,6 +34,6 @@ else if (brk == 1)
 break;
 }
 }
-dig = sign * dig;
+dig = sign *dig;
 return (dig);
 }
