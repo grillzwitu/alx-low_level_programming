@@ -15,17 +15,17 @@ int _atoi(char *s)
 unsigned int dig = 0;
 int sign = 1;
 
-while (*s)
+while (*s != '\0')
 {
 if (*s == '-')
 {
 sign *= -1;
 }
-else if (*s >= '0' && *s <= 9)
+if (*s >= '0' && *s <= 9)
 {
 dig = (dig * 10) + (*s - '0');
 }
-else
+if (*s == ';')
 {
 break;
 }
