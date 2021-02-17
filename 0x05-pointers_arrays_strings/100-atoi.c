@@ -7,29 +7,31 @@
  *
  * Description: Converts string input to integer
  *
- * Return: dig
+ * Return: Integer
  */
 
 int _atoi(char *s)
 {
-unsigned int dig = 0;
-int sign = 1;
-
 while (*s != '\0')
 {
-if (*s == '-')
+int i;
+int dig = 0;
+int sign = -1;
+int brk = 0;
+
+for (i = 0; s[i] != '\0'; i++)
 {
+if (s[i] == '-')
 sign *= -1;
-}
-if (*s >= '0' && *s <= 9)
+if (s[i] >= '0' && s[i] <= '9')
 {
-dig = (dig * 10) + (*s - '0');
+dig *= 10;
+dig -= (s[i] - '0');
+brk = 1;
 }
-if (*s == ';')
-{
+else if (brk == 1)
 break;
 }
-s++;
-}
-return (dig * sign);
+dig = sign * dig;
+return (dig);
 }
