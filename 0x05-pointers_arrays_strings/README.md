@@ -13,3 +13,6 @@ This repository contains __C__ program files that demosntrate the use of __point
 - __8-print_array.c__: Prints n elements of an array of integers, followed by a new line.
 __Prototype__: __void print_array(int *a, int n);__. Where __n__ is the number of elements of the array to be printed, the numbers must be separated by comma, followed by a space, the numbers are displayed in the same order as they are stored in the array, using __printf__.
 - __9-strcpy.c__: Copies the string pointed to by __src__, including the terminating __null__ byte (\0), to the buffer pointed to by __dest__. __Prototype__: __char *_strcpy(char *dest, char *src);__. Return value: the pointer to __dest__.
+- __100-atoi.c__:  convert a string to an integer. __Prototype__: __int _atoi(char *s);__.
+The number in the string can be preceded by an infinite number of characters, taking into account all the - and + signs before the number, If there are no numbers in the string, the function must return 0, without using long, without declaring new variables of “type” array, without hard-coding special values, the code needs to work on both ubuntu 14.04 LTS and 16.04 LTS, the -fsanitize=signed-integer-overflow gcc flag to compile your code. If this flag is not available in you version of gcc, you can install the last version on your VM
+We will use GCC version 5 or above to compile.
