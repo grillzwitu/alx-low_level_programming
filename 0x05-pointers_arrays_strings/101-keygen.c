@@ -11,23 +11,26 @@
 
 int main(void)
 {
-int size, pass;
-size = 0;
+int count, sum, n;
+int pass[100];
+
+sum = 0;
 
 srand(time(NULL));
-while (size < 128)
+
+for (count = 0; count < 100; count++)
 {
-pass = (rand() % 122) + 1;
-if (pass >= 32 && pass <= 126)
+pass[count] = rand() % 78;
+sum += (pass[count] + '0');
+putchar(pass[count] + '0');
+if ((2772 - sum) - '0' < 78)
 {
-printf("%c", (char)pass);
+n = 2772 - sum - '0';
+sum += n;
+putchar(n + '0');
+break;
 }
-else
-{
-printf("%d", pass % 10);
 }
-size++;
-}
-printf("\n");
+
 return (0);
 }
