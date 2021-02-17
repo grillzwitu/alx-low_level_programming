@@ -15,9 +15,9 @@ int size, pass;
 size = 0;
 
 srand(time(NULL));
-while (size < 20)
+while (size < 128)
 {
-pass = (rand() % 100) + 5;
+pass = (rand() % 122) + 1;
 if (pass >= 32 && pass <= 126)
 {
 printf("%c", (char)pass);
