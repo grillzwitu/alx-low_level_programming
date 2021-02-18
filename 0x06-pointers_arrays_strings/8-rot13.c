@@ -14,13 +14,13 @@ char *rot13(char *c)
 {
 int i, j;
 char rot_13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char alphabets[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 for (i = 0; c[i] != '\0'; i++)
 {
 for (j = 0; j < 52; j++)
 {
-if (alphabet[j] == c[i])
+if (alphabets[j] == c[i])
 {
 c[i] = rot_13[j];
 break;
