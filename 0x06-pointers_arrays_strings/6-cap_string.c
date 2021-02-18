@@ -13,18 +13,25 @@
 char *cap_string(char *str)
 {
 int i, j;
-char sep[] = {32, '\t', 11, '\n', 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+char sep[14] = " \t\n,;.!?\"(){}";
 i = 0;
 for (i = 0; str[i] != '\0'; i++)
 {
+if (i == 0)
+{
 if (str[i] >= 'a' && str[i] <= 'z')
 {
-for (j = 0; j < 14; j++)
+str[i] -= 32;
+continue;
+}
+}
+if (str[i] >= 'a' && str[i] <= 'z')
+{
+for (j = 0; sep[j] != '\0'; j++)
 {
 if (str[i - 1] == sep[j])
 {
 str[i] -= 32;
-break;
 }
 }
 
