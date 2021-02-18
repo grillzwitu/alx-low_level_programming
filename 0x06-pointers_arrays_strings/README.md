@@ -11,3 +11,4 @@ it will use at most __n__ bytes from __src__; and __src__ does not need to be nu
 The function should work exactly like __strcmp__.
 - __4-rev_array.c__: Reverses the content of an array of integers. __Prototype__: __void reverse_array(int *a, int n);__. Where __n__ is the number of elements of the array.
 - __5-string_toupper.c__: Changes all lowercase letters of a string to uppercase. __Prototype__: __char *string_toupper(char *);__.
+- __6-cap_string.c__: Capitalizes all words of a string. __Prototype__: __char *cap_string(char *);__. Separators of words: __space__, __tabulation__, __new line__, __,__, __;__, __.__, __!__, __?__, __"__, __(__, __)__, __{__, and __}__.
