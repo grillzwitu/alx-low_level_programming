@@ -12,5 +12,6 @@ void swap(int* a, int* b);
 char *string_toupper(char *str);
 char *cap_string(char *str);
 char *leet(char *c);
+char *rot13(char *c);
 
 #endif
