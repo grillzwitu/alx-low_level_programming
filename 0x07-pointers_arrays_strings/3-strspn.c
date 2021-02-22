@@ -32,9 +32,9 @@ break;
 }
 if (*p2 == '\0')
 {
-return count;
+return (count);
 }
 ++p1;
 }
-return count;
+return (count);
 }

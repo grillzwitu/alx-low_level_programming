@@ -6,7 +6,7 @@
  * @s: pointer argument
  * @accept: pointer argument
  *
- * Description: locates the first occurrence in the 
+ * Description: locates the first occurrence in the
  * string s of any of the bytes in the string accept.
  *
  * Return: First byte of s that match one of the
