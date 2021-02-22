@@ -7,3 +7,5 @@ This directory demonstrates more aspects of pointers, arrays and strings in the 
 - __4-strpbrk.c__: Searches a string for any of a set of bytes. __Prototype__: __char *_strpbrk(char *s, char *accept);__. Returns a pointer to the byte in __s__ that matches one of the bytes in __accept__, or __NULL__ if no such byte is found.
 - __5-strstr.c__: Locates a substring. __Prototype__: __char *_strstr(char *haystack, char *needle);__, returns a pointer to the beginning of the located substring, or __NULL__ if the substring is not found. the _strstr() function.
 - __7-print_chessboard.c__: Prints the chessboard. __Prototype__: __void print_chessboard(char (*a)[8]);__.
+- __8-print_diagsums.c__: Prints the sum of the two diagonals of a square matrix of integers. __Prototype__: __void print_diagsums(int *a, int size);__, using the standard library.
+- __9-set_string.c__: Sets the value of a pointer to a char. __Prototype__: __void set_string(char **s, char *to);__.
