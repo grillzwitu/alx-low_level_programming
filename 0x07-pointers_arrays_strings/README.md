@@ -1,0 +1,9 @@
+## 0x07-pointers_arrays_strings
+This directory demonstrates more aspects of pointers, arrays and strings in the areas of __multidemensinal arrays__ and __pointer to pointer__. The files in this directory are __C__ program files that further demonstrate the use of pointers and arrays. They include;
+- 0-memset.c: Fills memory with a constant byte. __Prototype__: __char *_memset(char *s, char b, unsigned int n);__. The _memset() function fills the first __n__ bytes of the memory area pointed to by s with the constant byte __b__, returns a pointer to the memory area __s__.
+- 1-memcpy.c: Copies memory area. __Prototype__: __char *_memcpy(char *dest, char *src, unsigned int n);__. The memcpy() function copies __n__ bytes from memory area src to memory area __dest__, returns a pointer to __dest__.
+- __2-strchr.c__: Locates a character in a string. __Prototype__: __char *_strchr(char *s, char c);__, returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found.
+- __3-strspn.c__: Gets the length of a prefix substring. __Prototype__: __unsigned int _strspn(char *s, char *accept);__, returns the number of bytes in the initial segment of __s__ which consist only of bytes from __accept__.
+- __4-strpbrk.c__: Searches a string for any of a set of bytes. __Prototype__: __char *_strpbrk(char *s, char *accept);__. Returns a pointer to the byte in __s__ that matches one of the bytes in __accept__, or __NULL__ if no such byte is found.
+- __5-strstr.c__: Locates a substring. __Prototype__: __char *_strstr(char *haystack, char *needle);__, returns a pointer to the beginning of the located substring, or __NULL__ if the substring is not found. the _strstr() function.
+- __7-print_chessboard.c__: Prints the chessboard. __Prototype__: __void print_chessboard(char (*a)[8]);__.
