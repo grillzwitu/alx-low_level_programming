@@ -1,30 +1,6 @@
 # include "holberton.h"
 
 /**
- * compare - entry point
- *
- * @x: pointer argument
- * @y: pointer argument
- *
- * Description: Compares x to y
- *
- * Return: y == '\0'.
- */
-
-int compare( char *x, char *y)
-{
-while (*x && *y)
-{
-if (*x != *y)
-return (0);
-x++;
-y++;
-}
-
-return (*y == '\0');
-}
-
-/**
  * *_strstr - entry point
  *
  * @haystack: pointer argument
@@ -38,11 +14,19 @@ return (*y == '\0');
 
 char *_strstr(char *haystack, char *needle)
 {
-while (*haystack != '\0')
+while (*haystack)
 {
-if ((*haystack == *needle) && compare(haystack, needle))
-return haystack;
-haystack++;
+char *start = haystack;
+char *mod = needle;
+
+while (*haystack && *mod && *haystack == *mod)
+haystack++,
+mod++;
+
+if (!*mod)
+return (start);
+
+haystack = start + 1;
 }
 
 return ('\0');
