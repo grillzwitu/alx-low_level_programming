@@ -9,4 +9,4 @@ This repository directory contains files that demonstrate the use of __recursion
 - __4-pow_recursion.c__: Returns the value of x raised to the power of y. __Prototype: int _pow_recursion(int x, int y);__. If __y__ is lower than __0__, the function should return __-1__.
 - __5-sqrt_recursion.c__: Returns the natural square root of a number.
 __Prototype: int _sqrt_recursion(int n);__. If __n__ does not have a natural square root, the function should return __-1__.
--
+- __6-is_prime_number.c__:  Returns __1__ if the input integer is a prime number, otherwise return __0__. __Prototype: int is_prime_number(int n);__.
