@@ -7,3 +7,5 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x04-more_functions_nested_loops__.
 - __0x05-pointers_arrays_strings__.
 - __0x06-pointers_arrays_strings__.
+- __0x07-pointers_arrays_strings__.
+- __0x08-recursion__.
