@@ -10,3 +10,5 @@ This repository directory contains files that demonstrate the use of __recursion
 - __5-sqrt_recursion.c__: Returns the natural square root of a number.
 __Prototype: int _sqrt_recursion(int n);__. If __n__ does not have a natural square root, the function should return __-1__.
 - __6-is_prime_number.c__:  Returns __1__ if the input integer is a prime number, otherwise return __0__. __Prototype: int is_prime_number(int n);__.
+- __7-is_palindrome.c__: Returns 1 if a string is a palindrome and 0 if not. __Prototype: int is_palindrome(char *s);__. An empty string is a palindrome.
+- __100-wildcmp.c__: Compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. __Prototype: int wildcmp(char *s1, char *s2);__. __s2__ can contain the special character __\*__. The special char __\*__ can replace any string (including an empty string).
