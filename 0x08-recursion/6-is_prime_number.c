@@ -18,7 +18,7 @@ if ((n / i) == 1)
 return (1);
 }
 else
-if ( n % i == 0 || n < 2)
+if ((n % i) == 0 || n < 2)
 {
 return (0);
 }
