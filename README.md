@@ -9,3 +9,5 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x06-pointers_arrays_strings__.
 - __0x07-pointers_arrays_strings__.
 - __0x08-recursion__.
+- __0x09-static_libraries__.
+- __0x0A-argc_argv__.
