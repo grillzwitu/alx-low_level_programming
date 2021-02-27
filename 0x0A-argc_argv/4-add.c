@@ -21,7 +21,7 @@ int a, b, sum;
 if (argc == 1)
 {
 printf("0\n");
-return(0);
+return (0);
 }
 
 for (a = 1; a < argc; a++)
@@ -38,6 +38,6 @@ return (1);
 sum += atoi(argv[a]);
 }
 
-printf("%d\n",sum);
+printf("%d\n", sum);
 return (0);
 }
