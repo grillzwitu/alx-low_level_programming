@@ -3,7 +3,7 @@
 /**
  * free_grid - entry point
  *
- * @*grid: pointer argument
+ * @grid: pointer argument
  * @height: int argument
  *
  * Description: Frees the memory space allocated to grid

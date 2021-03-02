@@ -18,7 +18,7 @@ int a;
 
 if (!str)
 {
-return NULL;
+return (NULL);
 }
 
 a = 1;
@@ -31,7 +31,7 @@ str_dup = malloc((sizeof(char) * a) +1);
 
 if (!str_dup)
 {
-return NULL;
+return (NULL);
 }
 
 a = 0;
