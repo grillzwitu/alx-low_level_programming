@@ -11,3 +11,4 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x08-recursion__.
 - __0x09-static_libraries__.
 - __0x0A-argc_argv__.
+- __0x0B-malloc_free__.

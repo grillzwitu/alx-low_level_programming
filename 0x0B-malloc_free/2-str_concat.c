@@ -13,8 +13,11 @@
 
 char *str_concat(char *s1, char *s2)
 {
-char *str = NULL;
-int str1, str2, a, b;
+char *str;
+int c_c, l, a;
+
+c_c = 0;
+l = 0;
 
 if (!s1)
 s1 = "";
@@ -22,24 +25,19 @@ s1 = "";
 if (!s2)
 s2 = "";
 
-str1 = 0;
-while (s1[str1])
-str1++;
+for (a = 0; s1[a] || s2[a]; a++)
+l++;
 
-str2 = 0;
-while (s2[str2])
-str2++;
+str = malloc(sizeof(str) * l);
 
-str = malloc(sizeof(str) * (str1 + str2));
-
-if (!str)
+if (str == NULL)
 return (NULL);
 
-b = 0;
-for (a = 0; a < (str1 + str2); a++)
-str[a] = a < str1 ? s1[a] : s2[b++];
+for (a = 0; a < s1[a]; a++)
+str[c_c++] = s1[a];
 
-str[++a] = '\0';
+for (a = 0; a < s2[a]; a++)
+str[c_c++] = s2[a];
 
 return (str);
 }
