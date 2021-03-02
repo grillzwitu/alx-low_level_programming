@@ -39,7 +39,7 @@ b = 0;
 for (a = 0; a < (str1 + str2); a++)
 str[a] = a < str1 ? s1[a] : s2[b++];
 
-str[a] = '\0';
+str[++a] = '\0';
 
 return (str);
 }
