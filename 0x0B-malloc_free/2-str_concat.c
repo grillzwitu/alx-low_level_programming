@@ -34,8 +34,8 @@ return (l);
 
 char *str_concat(char *s1, char *s2)
 {
-char *str;
-int l1, l2, a, b;
+char *str, *tmp;
+int l1, l2;
 
 if (!s1)
 s1 = "";
@@ -51,13 +51,13 @@ str = malloc(sizeof(str) * (l1 + l2) +1);
 if (str == NULL)
 return (NULL);
 
-for (a = 0; a < l1; a++)
-str[a] = s1[a];
+tmp = str;
 
-for (b = 0; b < l2; b++, a++)
-str[a] = s2[b];
+while (*s1)
+*tmp++ = *s1++;
 
-str[a] = '\0';
+while ((*tmp++ = *s2++))
+;
 
 return (str);
 }
