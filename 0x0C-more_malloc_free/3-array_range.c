@@ -33,5 +33,5 @@ arr[c] = c + min;
 
 arr[range] = max;
 
-return(arr);
+return (arr);
 }
