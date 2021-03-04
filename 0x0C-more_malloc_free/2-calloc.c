@@ -1,7 +1,7 @@
-#include "holberton.h"
+# include "holberton.h"
 
 /**
- * *string_nconcat - entry point
+ * *_calloc - entry point
  *
  * @nmemb: int argument
  * @size: int argument
@@ -15,8 +15,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *arr;
 unsigned int c;
-
-c = 0;
 
 if (nmemb == 0 || size == 0)
 return (NULL);
