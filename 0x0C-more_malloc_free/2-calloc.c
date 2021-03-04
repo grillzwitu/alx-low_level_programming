@@ -24,8 +24,8 @@ arr = malloc(nmemb * size);
 if (arr == NULL)
 return (NULL);
 
-for (c = 0; c < nmemb; c++)
-*(arr + c) = 0;
+for (c = 0; c < (nmemb * size); c++)
+arr[c] = 0;
 
 return (arr);
 }
