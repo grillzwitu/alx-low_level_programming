@@ -13,7 +13,7 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *arr;
+char *arr;
 unsigned int c;
 
 if (nmemb == 0 || size == 0)
@@ -25,7 +25,7 @@ if (arr == NULL)
 return (NULL);
 
 for (c = 0; c < nmemb; c++)
-*((char *)arr + c) = 0;
+*(arr + c) = 0;
 
 return (arr);
 }
