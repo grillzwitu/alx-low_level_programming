@@ -18,7 +18,7 @@ myMalloc = malloc(sizeof(myMalloc) * b);
 
 if (myMalloc == NULL)
 {
-exit (98);
+exit(98);
 }
 
 return (myMalloc);
