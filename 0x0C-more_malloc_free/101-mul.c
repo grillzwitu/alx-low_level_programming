@@ -4,7 +4,7 @@
 /**
  * _isdigit - checks for a digit
  * @c: Digit
- * Return: 1 or 0 
+ * Return: 1 or 0
  */
 
 int _isdigit(int c)
