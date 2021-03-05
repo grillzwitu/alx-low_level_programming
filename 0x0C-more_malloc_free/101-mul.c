@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-unsigned int mul;
+unsigned long mul;
 int a, b;
 
 if (argc != 3)
@@ -36,7 +36,7 @@ exit(98);
 
 mul = atoi(argv[1]) *  atoi(argv[2]);
 
-printf("%d\n", mul);
+printf("%lu\n", mul);
 
 return (0);
 }
