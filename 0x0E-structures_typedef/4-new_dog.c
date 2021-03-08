@@ -31,18 +31,14 @@ return (NULL);
 new_dog->name = malloc(l1);
 new_dog->owner = malloc(l2);
 
-do
-{
+do {
 new_dog->name[a] = name[a];
-}
-while (name[a++] != '\0');
+} while (name[a++] != '\0');
 a = 0;
 
-do
-{
+do {
 new_dog->owner[a] = owner[a];
-} 
-while (owner[a++] != '\0');
+} while (owner[a++] != '\0');
 new_dog->age = age;
 
 return (new_dog);
