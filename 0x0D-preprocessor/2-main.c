@@ -15,7 +15,7 @@ int main(void)
 {
 char name[] = __FILE__;
 
-printf("%s", name);
+printf("%s\n", name);
 
 return (EXIT_SUCCESS);
 }
