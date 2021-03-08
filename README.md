@@ -14,3 +14,4 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x0B-malloc_free__.
 - __0x0C-more_malloc_free__.
 - __0x0D-preprocessor__.
+- __0x0E-structures_typedef__.
