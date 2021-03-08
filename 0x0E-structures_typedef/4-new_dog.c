@@ -29,7 +29,7 @@ if (new_dog == NULL)
 free(new_dog);
 return (NULL);
 }
-new_dog->name = malloc(i * sizeof(new_dog->name));
+new_dog->name = malloc(a *sizeof(new_dog->name));
 if (new_dog->name == NULL)
 {
 free(new_dog->name);
@@ -37,7 +37,9 @@ free(new_dog);
 return (NULL);
 }
 for (c = 0; c <= a; c++)
+{
 new_dog->name[c] = name[c];
+}
 new_dog->age = age;
 new_dog->owner = malloc(b *sizeof(new_dog->owner));
 if (new_dog->owner == NULL)
@@ -48,6 +50,8 @@ free(new_dog);
 return (NULL);
 }
 for (c = 0; c <= b; c++)
+{
 new_dog->owner[c] = owner[c];
+}
 return (new_dog);
 }
