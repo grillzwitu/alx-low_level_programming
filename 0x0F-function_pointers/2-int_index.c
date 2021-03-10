@@ -20,11 +20,11 @@ if (array && cmp)
 a = 0;
 while (a < size)
 {
- a++;
 if (cmp(*(array + a)) != 0)
 {
 return (a);
 }
+a++;
 }
 
 }
