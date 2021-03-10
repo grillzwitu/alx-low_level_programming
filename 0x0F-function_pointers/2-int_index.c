@@ -15,10 +15,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 int a;
 
-if (array && size && cmp)
+if (array && cmp)
 {
-for (a = 0; a < size; a++)
+a = 0;
+while (a < size)
 {
+ a++;
 if (cmp(*(array + a)) != 0)
 {
 return (a);
