@@ -9,13 +9,17 @@
  * to be searched for.
  *
  * Description: Searches for an integer in array
+ *
+ * Return: index of the first element in array
+ * for which the cmp function does not return 0
+ * Or If no element matches, or If size <= 0 return -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int a;
 
-if (array && cmp)
+if (array && size && cmp)
 {
 a = 0;
 while (a < size)
