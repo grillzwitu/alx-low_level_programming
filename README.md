@@ -15,3 +15,5 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x0C-more_malloc_free__.
 - __0x0D-preprocessor__.
 - __0x0E-structures_typedef__.
+- __0x0F-function_pointers__.
+- __0x10-variadic_functions__.

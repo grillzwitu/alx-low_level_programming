@@ -6,7 +6,7 @@
  * @a: int argument
  * @b: int argument
  *
- * Description: Sums and b
+ * Description: Sums a and b
  *
  * Return: result
  */
