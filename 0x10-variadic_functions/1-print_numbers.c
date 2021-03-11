@@ -5,6 +5,7 @@
  * print_numbers - entry point
  *
  * @n: int argument
+ * @separator: char argument (separates the numbers)
  *
  * Description: Prints numbers followed
  * by a newline.
@@ -23,11 +24,11 @@ if (separator == 0)
 va_start(num_list, n);
 for (a = 0; a < n; a++)
 {
-printf ("%d", va_arg(num_list, int));
+printf("%d", va_arg(num_list, int));
 
 if (a < (n - 1))
 {
-printf ("%s", separator);
+printf("%s", separator);
 }
 
 }
