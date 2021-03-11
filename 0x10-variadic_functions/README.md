@@ -5,3 +5,4 @@
 - __1-print_numbers.c__:
 - __2-print_strings.c__:
 - __3-print_all.c__:
+- __100-hello_holberton.asm__:
