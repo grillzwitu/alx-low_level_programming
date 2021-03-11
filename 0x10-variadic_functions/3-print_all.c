@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_all - enrty point
+ * print_all - entry point
  *
  * @format: list of types of argument
  *
@@ -12,8 +12,8 @@
 void print_all(const char * const format, ...)
 {
 	va_list arg;
-	int c = 0;
 	char *str;
+	int c = 0;
 
 	va_start(arg, format);
 	while (format == NULL)
