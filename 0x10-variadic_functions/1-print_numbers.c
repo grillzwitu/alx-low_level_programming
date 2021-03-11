@@ -21,7 +21,7 @@ for (a = 0; a < n; a++)
 {
 printf("%d", va_arg(num_list, int));
 
-if (separator == NULL && a < (n - 1))
+if (separator != NULL && a < (n - 1))
 {
 printf("%s", separator);
 }
