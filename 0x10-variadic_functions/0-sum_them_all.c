@@ -18,7 +18,7 @@ va_list arg_list;
 
 if (n == 0)
 {
-return 0;
+return (0);
 }
 
 va_start(arg_list, n);
