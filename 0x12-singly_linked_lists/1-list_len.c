@@ -14,7 +14,7 @@ size_t list_len(const list_t *h)
 {
 	size_t nod_idx;
 
-	for (no_idx = 0; h != NULL; nod_idx++)
+	for (nod_idx = 0; h != NULL; nod_idx++)
 	{
 		if (h == NULL)
 		{
