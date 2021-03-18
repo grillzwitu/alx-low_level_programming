@@ -3,3 +3,4 @@ This directory explains the data structure __singly linked list__ and demonstrat
 - __lists.h__:
 - __0-print_list.c__:
 - __1-list_len.c__:
+- __2-add_node.c__:
