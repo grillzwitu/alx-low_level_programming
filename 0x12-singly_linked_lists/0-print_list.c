@@ -13,7 +13,7 @@
 
 size_t print_list(const list_t *h)
 {
-	unsigned int nod_idx;
+	size_t nod_idx;
 
 	for (nod_idx = 0; h != NULL; nod_idx++)
 	{
