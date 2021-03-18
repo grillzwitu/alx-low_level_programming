@@ -17,3 +17,4 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x0E-structures_typedef__.
 - __0x0F-function_pointers__.
 - __0x10-variadic_functions__.
+- __0x12-singly_linked_lists__.
