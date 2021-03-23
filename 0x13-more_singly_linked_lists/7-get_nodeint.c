@@ -20,9 +20,13 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	}
 
 	/* count the list lenght*/
-	for (count = 0; head != NULL && (i < index); count++)
+	for (count = 0; (head != NULL) && (i < index); count++)
 	{
 		head = head->next;
+	}
+	if (head == NULL)
+	{
+		return (NULL);
 	}
 	return (head);
 }
