@@ -14,7 +14,7 @@
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *new_nod, *temp1;
+	listint_t *new_nod, *temp1, temp2;
 	unsigned int count;
 
 	if (head == NULL)
@@ -53,5 +53,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		free(new_nod);
 		return (NULL);
 	}
+	temp2 = temp->next;
+	temp->next = new_nod;
+	new_nod->next = temp2;
 	return (new_nod);
 }
