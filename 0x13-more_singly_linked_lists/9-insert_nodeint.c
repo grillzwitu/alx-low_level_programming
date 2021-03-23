@@ -14,7 +14,7 @@
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *new_nod, *temp1, temp2;
+	listint_t *new_nod, *temp1, *temp2;
 	unsigned int count;
 
 	if (head == NULL)
