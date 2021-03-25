@@ -19,8 +19,10 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	for (c = 0, ret_val = 0; c < (sizeof(unsigned long int) * 8); c++)
 	{
 		if ((n & 1) != (m & 1))
-			ret++;
+			ret_val++;
+
 		n >>= 1, m >>= 1;
 	}
+
 	return (ret_val);
 }
