@@ -15,7 +15,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 	int mask_no;
 
-	if (n == NULL || (sizeof(unsigned long int) * 8))
+	if (n == NULL || index > (sizeof(unsigned long int) * 8))
 		return (-1);
 
 	mask_no = 1 << index;
