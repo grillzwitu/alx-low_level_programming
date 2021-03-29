@@ -18,3 +18,5 @@ This repository is meant to test and showcase my understanding of the programmin
 - __0x0F-function_pointers__.
 - __0x10-variadic_functions__.
 - __0x12-singly_linked_lists__.
+- __0x13-more_singly_linked_lists__.
+- __0x14-bit_manipulation__.
