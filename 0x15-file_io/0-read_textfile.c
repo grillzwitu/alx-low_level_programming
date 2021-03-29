@@ -3,7 +3,7 @@
 /**
  * read_textfile - Entry Point.
  *
- * @filename: File to be read
+ * @filename: File to be read.
  * @letters: number of letters to read and write.
  *
  * Deescription: Reads a text file and prints it to the POSIX standard output.
@@ -13,30 +13,36 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t file, n_ltrs;
-	char *buf;
+	int fd;
+	char *buffer;
+	ssize_t read_counter, write_counter = 0;
 
 	if (filename == NULL)
 		return (0);
-
-	file = open(filename, O_RDONLY);
-	if (file == -1)
+	buffer = malloc(letters);
+	if (buffer == NULL)
 		return (0);
-
-	buf = malloc(sizeof(char) * letters);
-	if (buf == NULL)
-		return (0);
-
-	n_ltrs = read(file, buf, letters);
-	if (n_ltrs == -1)
+	fd = open(filename, O_RDONLY);
+	if (fd == -1)
 	{
-		free(buf);
+		free(buffer);
 		return (0);
 	}
-
-	write(STDOUT_FILENO, buf, n_ltrs);
-	close(file);
-	free(buf);
-
-	return (n_ltrs);
+	read_counter = read(fd, buffer, letters);
+	if (read_counter == -1)
+	{
+		free(buffer);
+		close(fd);
+		return (0);
+	}
+	write_counter = write(STDOUT_FILENO, buffer, read_counter);
+	if (write_counter == -1)
+	{
+		free(buffer);
+		close(fd);
+		return (0);
+	}
+	close(fd);
+	free(buffer);
+	return (write_counter);
 }
