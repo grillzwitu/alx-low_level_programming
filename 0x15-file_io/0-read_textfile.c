@@ -14,12 +14,11 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t no_ltrs;
-	char *text;
 	int file;
+	char *text;
 
 	if (filename == NULL)
 		return (0);
-
 	text = malloc(sizeof(char) * letters + 1);
 	if (text == NULL)
 		return (0);
