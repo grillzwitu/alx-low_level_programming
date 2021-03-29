@@ -13,7 +13,7 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t no_ltrs;
+	ssize_t nletters;
 	int file;
 	char *text;
 
@@ -28,15 +28,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(text);
 		return (0);
 	}
-	no_ltrs = read(file, text, sizeof(char) * letters);
-	if (no_ltrs == -1)
+	nletters = read(file, text, sizeof(char) * letters);
+	if (nletters == -1)
 	{
 		free(text);
 		close(file);
 		return (0);
 	}
-	no_ltrs = write(STDOUT_FILENO, text, no_ltrs);
-	if (no_ltrs == -1)
+	nletters = write(STDOUT_FILENO, text, nletters);
+	if (nletters == -1)
 	{
 		free(text);
 		close(file);
@@ -44,5 +44,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	free(text);
 	close(file);
-	return (no_ltrs);
+	return (nletters);
 }
