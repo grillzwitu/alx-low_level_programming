@@ -1,4 +1,4 @@
-#include "hash_tables.h"
+B#include "hash_tables.h"
 
 /**
  * hash_table_delete - Entry Point
@@ -12,23 +12,22 @@
 
 void hash_table_delete(hash_table_t *ht)
 {
-	hash_node_t *cur_hashnode;
-	unsigned long int i = 0;
+	unsigned long int i;
+	hash_node_t *next;
 
 	if (ht == NULL)
 		return;
 
-	while (i < ht->size)
+	for (i = 0; i < ht->size; i++)
 	{
 		while (ht->array[i] != NULL)
 		{
-			cur_hashnode = ht->array[i];
-			free(cur_hashnode->key);
-			free(cur_hashnode->value);
+			next = ht->array[i];
+			free(next->key);
+			free(next->value);
 			ht->array[i] = ht->array[i]->next;
-			free(cur_hashnode);
+			free(next);
 		}
-		i++;
 	}
 	free(ht->array);
 	free(ht);
