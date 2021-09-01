@@ -14,6 +14,7 @@
  * Description: singly linked list node structure
  * for Holberton project
  */
+
 typedef struct listint_s
 {
 	int n;
@@ -32,6 +33,7 @@ typedef struct listint_s
  * Description: singly linked list node structure with an express lane
  * for Holberton project
  */
+
 typedef struct skiplist_s
 {
 	int n;
@@ -42,6 +44,7 @@ typedef struct skiplist_s
 
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
+int binary_search_inner(int *array, int l, int r, int value);
 int jump_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
 int exponential_search(int *array, size_t size, int value);
