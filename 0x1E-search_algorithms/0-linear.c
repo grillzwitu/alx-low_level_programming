@@ -8,20 +8,20 @@
  *
  * Return: first index where value is located, or -1 on failure
  */
+
 int linear_search(int *array, size_t size, int value)
 {
-	size_t a;
-	int idxVal;
+	size_t index = 0;
 
-	if (array != NULL)
+	if (array == NULL)
+		return (-1);
+
+	for (index = 0; index < size; index++)
 	{
-		for (a = 0; a < size; a++)
-		{
-			idxVal = array[a];
-			printf("Value checked array[%d] = [%d]\n", a, idxVal);
-			if (idxVal == value)
-				return (a);
-		}
+		printf("Value checked array[%lu] = [%d]\n",
+		       index, array[index]);
+		if (array[index] == value)
+			return (index);
 	}
 	return (-1);
 }
